@@ -1,0 +1,18 @@
+<h1>Bize Ulasin</h1>
+
+<h2> Isyeri Adresi </h2>
+{% with %}
+
+    {% set location=(40.970741,29.041289) %}
+    {% set style="width:500px;height:500px;"%}
+
+    {{
+    googlemap(
+        "simple-map",
+        location.0, location.1,
+        markers=[location,],
+        style=style
+        )
+    }}
+
+{% endwith %}

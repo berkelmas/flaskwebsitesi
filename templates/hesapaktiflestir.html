@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{{super()}}
+<br>
+<br>
+<br>
+{% include "includes/flashmessage.html" %}
+<h3>Merhaba</h3>
+<h4>Girdiginiz email : {{email}}</h4>
+<p>Belirttiginiz email'e uyelik onayiniz icin email gonderilmistir.</p>
+
+<!--
+<a href="/confirm_email/{{token}}">{{token}}</a>
+-->
+{% endblock content %}

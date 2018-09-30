@@ -1,0 +1,10 @@
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+
+  {% for category, message in messages %}
+    <div style="margin-top : -16px;" class="alert alert-{{category}}"> {{message}} </div>   <!-- Burada margin koymamizin nedeni navbarimizin altinda kaldigi icin yukariya dogru cikartiyoruz.-->
+  {% endfor %}
+
+{% endif %}
+{% endwith %}
