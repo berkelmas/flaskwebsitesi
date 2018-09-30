@@ -18,18 +18,18 @@ s= URLSafeTimedSerializer('thisissecret!')
 
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'berkelmas96@gmail.com'
-app.config['MAIL_PASSWORD'] = 'Berkerberk693693'
+app.config['MAIL_USERNAME'] = 'yourmail@mail.com'
+app.config['MAIL_PASSWORD'] = 'yourpassword'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 
-app.config['SECRET_KEY'] = 'kimseyesoyleme'
+app.config['SECRET_KEY'] = 'donttellanyone!!'
 app.config['RECAPTCHA_PUBLIC_KEY'] = '6Lc5OnEUAAAAABgsN-tJJe2An78g1DZRc64AqcYg'
 app.config['reCAPTCHA_PRIVATE_KEY'] = '6Lc5OnEUAAAAAADMfKH5wsTKr4h8aWhPr_UevdCC'
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config["MYSQL_USER"]= "root" 
-app.config["MYSQL_PASSWORD"]= "berk693693"
+app.config["MYSQL_PASSWORD"]= "yourswpassword"
 app.config["MYSQL_DATABASE_PORT"]= 3306   
 app.config["MYSQL_DB"]= "kullanicilar"
 
